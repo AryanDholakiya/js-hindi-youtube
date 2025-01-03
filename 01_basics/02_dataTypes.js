@@ -13,6 +13,7 @@ let state; //example of undefined //value is not assigned
 let district = null //representation of empty value //standalone value
 
 // datatypes 
+
 // number 
 // bigint
 // string => we can use  " "  or ' ' ....prefer " "
@@ -22,6 +23,3 @@ let district = null //representation of empty value //standalone value
 // symbol => unique
 // object
 
-console.log(typeof "abcd");
-console.log("the typeof of null: " + typeof null); //object
-console.log("typeof of undefined: " + typeof undefined); //undefined
