@@ -1,18 +1,18 @@
 let score = 33
 
-console.log(typeof score);
-console.log(typeof (score)); //both syntax are valid
+console.log(typeof score);  //o/p : number
+console.log(typeof (score)); //both syntax are valid     //o/p : number
 
 
 
 //Coversion
 
 let score2 = "33"
-console.log(typeof score2)
+console.log(typeof score2) //o/p : string
 
 let conversion = Number(score2)
 
-console.log("Becasue of Conversion of '33' it becomes: " + typeof conversion)
+console.log("Becasue of Conversion of '33' it becomes: " + typeof conversion) //o/p : number
 
 
 
@@ -20,7 +20,7 @@ console.log("Becasue of Conversion of '33' it becomes: " + typeof conversion)
 
 let rollNo = "123abc" //string typed
 let conversionforNaN = Number(rollNo)
-
+console.log("hello");
 console.log(typeof conversionforNaN) //here it gives o/p: Number but, actually it is NaN.
 
 console.log(conversionforNaN); //NaN : is output because it tries for convert the rollNo into number.
@@ -73,5 +73,17 @@ let somenumber = 33
 
 let newSomeNumber = String(somenumber)
 
-console.log("typeof of somenumebr after String Conersion: " + typeof newSomeNumber)
+console.log("typeof of somenumebr after String Conversion: " + typeof newSomeNumber)
+
+
+console.log()
+console.log()
+console.log()
+
+//*******************OPERATIONS************************* 
+
+let value = 3;
+let negativeValue = -value;
+
+console.log(negativeValue);
 
